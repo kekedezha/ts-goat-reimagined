@@ -2,18 +2,23 @@
     "products": [
         {
             "sku": "item0001",
-            "name": "Widget",
-            "price": 9.99
+            "name": "Air Jordan 4 Retro: Military Blue",
+            "price": 208.00
         },
         {
             "sku": "item0002",
-            "name": "Premium Widget",
-            "price": 19.99
+            "name": "Air Jordan 4 Retro: Red Thunder",
+            "price": 417.00
         },
         {
             "sku": "item0003",
-            "name": "Deluxe Widget",
-            "price": 29.99
+            "name": "Air Jordan 4 Retro: Bred Reimagined",
+            "price": 219.00
+        },
+        {
+            "sku": "item0004",
+            "name": "Air Jordan 4 Retro x Nike SB: Pine Green",
+            "price": 361
         }
     ]
 }
