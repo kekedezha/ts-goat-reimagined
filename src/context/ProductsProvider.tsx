@@ -55,7 +55,17 @@ export const ProductsProvider = ({ children }: ChildrenType): ReactElement => {
     const [products, setProducts] = useState<ProductType[]>(initState);
 
     useEffect(() => {
-        
+        const fetchProducts = async (): Promise<ProductType[]> => {
+            const data = await fetch('http://localhost:3500/products')
+            .then(res => {
+                return res.json();
+            }).catch(error => {
+                if (error instanceof Error) console.log(error.message);
+            })
+            return data;
+        }
+
+        fetchProducts().then(products => setProducts(products))
     }, [])
 
     return (
