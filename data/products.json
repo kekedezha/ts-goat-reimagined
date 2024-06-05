@@ -2,23 +2,33 @@
     "products": [
         {
             "sku": "item0001",
-            "name": "Air Jordan 4 Retro: Military Blue",
-            "price": 208.00
+            "name": "Air Jordan 4 Retro: 'Military Blue' 2024",
+            "price": 222.00
         },
         {
             "sku": "item0002",
-            "name": "Air Jordan 4 Retro: Red Thunder",
-            "price": 417.00
+            "name": "Air Jordan 4 Retro: 'Red Thunder'",
+            "price": 413.00
         },
         {
             "sku": "item0003",
-            "name": "Air Jordan 4 Retro: Bred Reimagined",
-            "price": 219.00
+            "name": "Air Jordan 4 Retro: 'Bred Reimagined'",
+            "price": 260.00
         },
         {
             "sku": "item0004",
-            "name": "Air Jordan 4 Retro x Nike SB: Pine Green",
-            "price": 361
+            "name": "Air Jordan 4 Retro x Nike SB: 'Pine Green'",
+            "price": 423.00
+        },
+        {
+            "sku": "item0005",
+            "name": "Off-White x Wmns Air Jordan 4 Retro SP: 'Sail'",
+            "price": 1161.00
+        },
+        {
+            "sku": "item0006",
+            "name": "KAWS x Air Jordan 4 Retro: 'Cool Grey'",
+            "price": 2382.00
         }
     ]
 }
