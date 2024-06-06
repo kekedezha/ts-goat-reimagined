@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# GOAT 'REIMAGINED' 👟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GOAT 'Reimagined' is a redesign of a search on the streetwear/luxury website for sneakers, apparel and accessories, GOAT! 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Motivation ✍🏽
 
-## Expanding the ESLint configuration
+[GOAT's](https://www.goat.com/) current website has a UI/UX that is a bit outdated and an unpleasant user experience, in my opinion. I wanted to start out with something simple and redesign part of the website because doing the full website might take a little bit more time and thought. I decided on a search for the Air Jordan 4 Retro. This obviously will not have every single shoe available but is more a less a preview of how the search for the specified silhouette. 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Main Technologies 💻
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- TypeScript
+- Vite
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Future Improvements/Integrations 🤔
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Make more routes to the different pages you can go to and recreate the home page which is very overwhelming to look at/scroll through. 
+- Add in user authentication
+- Set up a mock payment setup
+- Continue integrating features bit by bit to 'replace' the current website
+
+## 🚦 Running the Project
+
+To run the project in your local environment, follow these steps:
+
+1. Clone the repository to your local machine
+2. Run `npm install` or the project directory to install the required dependencies.
+3. Run `npm start` or to get the project started.
+4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.(Development mode)
