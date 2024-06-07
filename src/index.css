@@ -80,7 +80,7 @@ img {
 
 .header__title-name {
     text-align: center;
-    font-size: medium;
+    font-size: large;
     font-weight: 900;
 }
 
@@ -94,8 +94,25 @@ img {
 }
 
 .nav {
-  display: flex;
-  gap: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 0.5em; */
+}
+
+.nav__search {
+    width: 20%;
+}
+
+.nav__header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__account {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
 }
 
 .footer {
