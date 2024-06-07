@@ -2,6 +2,7 @@ import useCart from "../hooks/useCart";
 import useProducts from "../hooks/useProducts";
 import Product from "./Product";
 import { ReactElement } from "react";
+import SideBar from "./SideBar";
 
 const ProductList = () => {
     const { dispatch, REDUCER_ACTIONS, cart } = useCart();
@@ -26,8 +27,13 @@ const ProductList = () => {
     }
 
     const content = (
-        <main className="main main--products">
-            {pageContent}
+        <main className="main">
+            <div className="side--bar">
+                <SideBar/>
+            </div>
+            <div className="products">
+                {pageContent}
+            </div>
         </main>
     )
     return content;
