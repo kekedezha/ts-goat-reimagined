@@ -122,11 +122,11 @@ img {
 .products {
     display: flex;
     width: 80%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     flex-flow: row wrap;
     flex-grow: 1;
-    gap: 0;
+    row-gap: 1rem;
 }
 
 .product {

@@ -29,6 +29,21 @@
             "sku": "item0006",
             "name": "KAWS x Air Jordan 4 Retro: 'Cool Grey'",
             "price": 2382.00
+        },
+        {
+            "sku": "item0007",
+            "name": "Air Jordan 4 Retro: 'Black Cat' 2020",
+            "price": 781.00
+        },
+        {
+            "sku": "item0008",
+            "name": "Wmns Air Jordan 4 Retro: 'Canyon Purple'",
+            "price": 282.00
+        },
+        {
+            "sku": "item0009",
+            "name": "Union LA x Air Jordan 4 Retro: 'Guava Ice'",
+            "price": 582.00
         }
     ]
 }
