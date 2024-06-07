@@ -31,7 +31,7 @@ const Cart = () => {
             <div className="cart__totals">
                 <p>Total Items: {totalItems}</p>
                 <p>Total Price: {totalPrice}</p>
-                <button className="cart__submit" disabled={!totalItems} onClick={onSumbitOrder}>Place Order</button>
+                <button className="btn" disabled={!totalItems} onClick={onSumbitOrder}>Place Order</button>
             </div>
         </>
 
