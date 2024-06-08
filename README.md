@@ -2,10 +2,15 @@
 
 GOAT 'Reimagined' is a redesign of a search on the streetwear/luxury website for sneakers, apparel and accessories, GOAT! 
 
+<img width="1440" alt="Screenshot 2024-06-08 at 3 39 22 PM" src="https://github.com/kekedezha/ts-goat-reimagined/assets/105559393/a69b3c05-efdc-4564-b9c9-b623b52de497">
+
 
 ## Motivation ✍🏽
 
 [GOAT's](https://www.goat.com/) current website has a UI/UX that is a bit outdated and has an unpleasant user experience, in my opinion. I wanted to start out with something simple and redesign part of the website because doing the full website might take a little bit more time and thought. I decided on a search for the Air Jordan 4 Retro. This obviously will not have every single shoe available but is more or less a preview of how the search would look like for the specified silhouette. 
+
+<img width="1440" alt="Screenshot 2024-06-08 at 3 40 40 PM" src="https://github.com/kekedezha/ts-goat-reimagined/assets/105559393/ddf17171-8360-4f57-a1cb-f6f1e756cbfa">
+
 
 ## Features ✨
 
