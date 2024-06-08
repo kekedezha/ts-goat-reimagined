@@ -3,31 +3,37 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Reset margins and padding, ensure box-sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Hide elements offscreen */
 .offscreen {
     position: absolute;
     left: -10000px;
 }
 
+/* Prevent horizontal scrolling */
 html, body {
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden; 
 }
 
+/* Set body font */
 body {
     font-family: 'Nunito', sans-serif;
 }
 
+/* Ensure buttons and selects inherit font and have padding */
 button,
 select {
     font: inherit;
     padding: 0.25em;
 }
 
+/* Ensure images are responsive and have rounded corners */
 img {
     display: block;
     width: 100%;
@@ -35,6 +41,7 @@ img {
     border-radius: 10px;
 }
 
+/* Set root div to occupy full viewport height */
 #root {
     /* React root div */
     min-height: 100vh;
@@ -42,16 +49,18 @@ img {
     flex-flow: column nowrap;
 }
 
-.main,
+/* Header and footer padding and margin */
 .header,
 .footer {
     padding: 1rem;
     margin: 0;
 }
 
+/* Main content area */
 .main {
     display: flex;
-    padding-top: 4rem;
+    padding: 4rem 1rem 1rem;
+    min-height: 100vh;
 }
 
 .main--cart {
@@ -117,7 +126,12 @@ img {
 }
 
 .side--bar {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
     width: 20%;
+    z-index: 10;
+    height: fit-content;
 }
 .products {
     display: flex;
@@ -126,7 +140,7 @@ img {
     margin: 0 auto;
     flex-flow: row wrap;
     flex-grow: 1;
-    row-gap: 1rem;
+    row-gap: 2rem;
 }
 
 .product {

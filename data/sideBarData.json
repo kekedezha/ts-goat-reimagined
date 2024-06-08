@@ -1,0 +1,215 @@
+{
+   "sideBarLinks": [
+        {
+            "sectionTitle": "Popular",
+            "children": []
+        },
+        {
+            "sectionTitle": "Recently Released Sneakers",
+            "children": []
+        },
+        {
+            "sectionTitle": "New In Apparel",
+            "children": []
+        },
+        {
+            "sectionTitle": "Price (Low - High)",
+            "children": []
+        },
+        {
+            "sectionTitle": "Price (High - Low)",
+            "children": []
+        },
+        {
+            "sectionTitle": "Brand",
+            "children": [
+                {
+                    "childrenTitle": "Air Jordan",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Cactus Jack By Travis Scott",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Category",
+            "children": [
+                {
+                    "childrenTitle": "Sneakers",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Apparel",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Gender",
+            "children": [
+                {
+                    "childrenTitle": "Men",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Women",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Youth",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Infant",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Size",
+            "children": [
+                {
+                    "childrenTitle": "Sneakers",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Tops",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Condition",
+            "children": [
+                {
+                    "childrenTitle": "New",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Used",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "New With Defects",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Infant",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Color",
+            "children": [
+                {
+                    "childrenTitle": "Red",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Blue",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Green",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Black",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "White",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "Brown",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Price",
+            "children": []
+        },
+        {
+            "sectionTitle": "Instant",
+            "children": []
+        },
+        {
+            "sectionTitle": "Under Retail",
+            "children": []
+        },
+        {
+            "sectionTitle": "Available Now",
+            "children": []
+        },
+        {
+            "sectionTitle": "Year",
+            "children": [
+                {
+                    "childrenTitle": "2010",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2011",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2012",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2013",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2014",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2015",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2016",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2017",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2018",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2019",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2020",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2021",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2022",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2023",
+                    "href": ""
+                },
+                {
+                    "childrenTitle": "2024",
+                    "href": ""
+                }
+            ]
+        }
+    ]
+}
