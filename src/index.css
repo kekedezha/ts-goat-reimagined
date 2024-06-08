@@ -60,7 +60,7 @@ img {
 .main {
     display: flex;
     padding: 4rem 1rem 1rem;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .main--cart {
@@ -133,14 +133,18 @@ img {
     z-index: 10;
     height: fit-content;
 }
+.producproducts-search-div {
+    width: 75%;
+}
+
 .products {
     display: flex;
-    width: 80%;
+    width: 100%;
     min-height: 100vh;
     margin: 0 auto;
     flex-flow: row wrap;
     flex-grow: 1;
-    row-gap: 2rem;
+    row-gap: 6rem;
 }
 
 .product {

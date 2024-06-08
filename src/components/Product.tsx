@@ -22,8 +22,29 @@ const Product = ({ product, dispatch, REDUCER_ACTIONS, inCart }: PropsType): Rea
         <article className="product">
             <h3>{product.name}</h3>
             <img src={img} alt={product.name} className="product__img" />
-            <p>{new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'}).format(product.price)}{itemInCart}</p>
-            <button className="btn btn-primary w-1/4 mx-auto" onClick={onAddToCart}>Add To Cart</button>
+            <p className="mb-4">{new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'}).format(product.price)}{itemInCart}</p>
+            <div className="flex justify-evenly">
+                <button className="btn btn-primary w-1/4" onClick={onAddToCart}>Add To Cart</button>
+                <div className="dropdown dropdown-top">
+                    <div tabIndex={0} role="button" className="btn btn-primary mx-1">Sizes</div>
+                    <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                        <li className="disabled"><a>7</a></li>
+                        <li className="disabled"><a>7.5</a></li>
+                        <li className="disabled"><a>8</a></li>
+                        <li className="disabled"><a>8.5</a></li>
+                        <li><a>9</a></li>
+                        <li className="disabled"><a>9.5</a></li>
+                        <li className="disabled"><a>10</a></li>
+                        <li className="disabled"><a>10.5</a></li>
+                        <li className="disabled"><a>11</a></li>
+                        <li className="disabled"><a>11.5</a></li>
+                        <li className="disabled"><a>12</a></li>
+                        <li className="disabled"><a>13</a></li>
+                        <li className="disabled"><a>14</a></li>
+                    </ul>
+                </div>
+            </div>
+        
         </article>
     )
     

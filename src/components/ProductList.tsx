@@ -31,8 +31,14 @@ const ProductList = () => {
             <div className="side--bar">
                 <SideBar/>
             </div>
-            <div className="products">
-                {pageContent}
+            <div className="products-search-div">
+                <div className="flex justify-between mb-6 px-6 font-extrabold">
+                    <p className="">Jordan 4</p>
+                    <p>638 Items</p>
+                </div>
+                <div className="products">
+                    {pageContent}
+                </div>
             </div>
         </main>
     )
