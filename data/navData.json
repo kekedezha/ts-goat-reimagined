@@ -1,0 +1,92 @@
+{
+    "navLinks": [
+        {
+            "navTitle": "Home",
+            "children": []
+        }, 
+        {
+            "navTitle": "Shop 406,348 Items",
+            "children": [
+                {
+                    "subCategoryTitle": "Featured Brands",
+                    "subCategories": [
+                        "Air Jordan",
+                        "Nike",
+                        "adidas",
+                        "Supreme",
+                        "Fear of God Essentials",
+                        "New Balance",
+                        "Gucci",
+                        "Saint Laurent",
+                        "Commes de Garcon PLAY"
+                    ]
+                },
+                {
+                    "subCategoryTitle": "Collections",
+                    "subCategories": [
+                       "Just Dropped",
+                       "New In",
+                       "Most Wanted",
+                       "GOAT Selects",
+                       "Iconic Archival",
+                       "Women's Sneakers",
+                       "Grade School Sneakers",
+                       "Instants",
+                       "Summer Sale"
+                    ]
+                },
+                {
+                    "subCategoryTitle": "Categories",
+                    "subCategories": [
+                       "Sneakers",
+                       "Apparel",
+                       "T-shirts",
+                       "Hoodies",
+                       "Outerwear",
+                       "Bottoms",
+                       "Bags",
+                       "Jewelry",
+                       "Gift Cards"
+                    ]
+                }
+            ]
+        }, 
+        {
+            "navTitle": "Editorial",
+            "children": []
+        }, 
+        {
+            "navTitle": "Timeline",
+            "children": [
+                {
+                    "subCategoryTitle": "Upcoming Releases",
+                    "subCategories": [
+                        "Kobe 4 'Girl Dad'",
+                        "Jordan 6 'Reverse Oreo'",
+                        "Jordan 4 'Qual 54'",
+                        "Air Force 1 'Linen' 2024",
+                        "Air DT Max '96 'Black White' 2024",
+                        "Jordan 11 Low 'Legend Pink'",
+                        "'Philly' Dunks",
+                        "HUF x Air Max 1 'Pear'",
+                        "Jordan 13 'Dune Red'"
+                    ]
+                },
+                {
+                    "subCategoryTitle": "New Releases",
+                    "subCategories": [
+                        "Di'orr Greenwood Dunks",
+                        "Nike Vomero 'Racer Blue' 2024",
+                        "Jordan 17 Low 'Lightning' 2024",
+                        "Jordan 1 'Latte'",
+                        "Travis Scott x Jordan 1 'Canary'",
+                        "Jordan 12 'Taxi Flip'",
+                        "Air Max 180 'Ultramarine' 2024",
+                        "J.Balvin x Jordan 3 'Rio'",
+                        "KD 4 'Weatherman' 2024"
+                    ]
+                }
+            ]
+        }
+    ]
+}

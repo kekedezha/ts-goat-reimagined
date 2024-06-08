@@ -1,3 +1,7 @@
+//Nav Bar Component
+import navBarData from "../../data/navData.json"
+import { Fragment } from "react/jsx-runtime";
+
 const Nav = () => {
 
     const content = (
@@ -9,92 +13,33 @@ const Nav = () => {
                 </label>
             </div>
             <div className="nav__header-links">
-                {/* Home Button Link */}
-                <button className="btn btn-ghost">Home</button>
-                {/* Shop Button Link */}
-                <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
-                    <div tabIndex={0} role="button" className="btn btn-ghost m-1">Shop 406,348 Items</div>
-                    <ul tabIndex={0} className="dropdown-content menu p-2 md:menu-horizontal lg:min-w-max bg-base-200 rounded-box">
-                        <li>
-                            Featured Brands
-                            <ul>
-                                <li><a>Air Jordan</a></li>
-                                <li><a>Nike</a></li>
-                                <li><a>adidas</a></li>
-                                <li><a>Supreme</a></li>
-                                <li><a>Fear of God Essentials</a></li>
-                                <li><a>New Balance</a></li>
-                                <li><a>Gucci</a></li>
-                                <li><a>Saint Laurent</a></li>
-                                <li><a>Commes de Garcon PLAY</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            Collections
-                            <ul>
-                                <li><a>Just Dropped</a></li>
-                                <li><a>New In</a></li>
-                                <li><a>Most Wanted</a></li>
-                                <li><a>GOAT Selects</a></li>
-                                <li><a>Iconic Archival</a></li>
-                                <li><a>Women's Sneakers</a></li>
-                                <li><a>Grade School Sneakers</a></li>
-                                <li><a>Instants</a></li>
-                                <li><a>Summer Sale</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            Categories
-                            <ul>
-                                <li><a>Sneakers</a></li>
-                                <li><a>Apparel</a></li>
-                                <li><a>T-shirts</a></li>
-                                <li><a>Hoodies</a></li>
-                                <li><a>Outerwear</a></li>
-                                <li><a>Bottoms</a></li>
-                                <li><a>Bags</a></li>
-                                <li><a>Jewelry</a></li>
-                                <li><a>Gift Cards</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                {/* Editorial Button Link */}
-                <button className="btn btn-ghost">Editorial</button>
-                {/* Timeline Button Link */}
-                <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
-                    <div tabIndex={0} role="button" className="btn btn-ghost m-1">Timeline</div>
-                    <ul tabIndex={0} className="dropdown-content menu p-2 md:menu-horizontal lg:min-w-max bg-base-200 rounded-box">
-                        <li>
-                            Upcoming Releases
-                            <ul>
-                                <li><a>Kobe 4 'Girl Dad'</a></li>
-                                <li><a>Jordan 6 'Reverse Oreo'</a></li>
-                                <li><a>Jordan 4 'Qual 54'</a></li>
-                                <li><a>Air Force 1 'Linen' 2024</a></li>
-                                <li><a>Air DT Max '96 'Black White' 2024</a></li>
-                                <li><a>Jordan 11 Low 'Legend Pink'</a></li>
-                                <li><a>'Philly' Dunks</a></li>
-                                <li><a>HUF x Air Max 1 'Pear'</a></li>
-                                <li><a>Jordan 13 'Dune Red'</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            New Releases
-                            <ul>
-                                <li><a>Di'orr Greenwood Dunks</a></li>
-                                <li><a>Nike Vomero 'Racer Blue' 2024</a></li>
-                                <li><a>Jordan 17 Low 'Lightning' 2024</a></li>
-                                <li><a>Jordan 1 'Latte'</a></li>
-                                <li><a>Travis Scott x Jordan 1 'Canary'</a></li>
-                                <li><a>Jordan 12 'Taxi Flip'</a></li>
-                                <li><a>Air Max 180 'Ultramarine' 2024</a></li>
-                                <li><a>J.Balvin x Jordan 3 'Rio'</a></li>
-                                <li><a>KD 4 'Weatherman' 2024</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                {navBarData.navLinks.map((item,index) => (
+                    <Fragment key={index}>
+                        {item.navTitle === "Home" || item.navTitle === "Editorial" ?
+                            (<button key={item.navTitle} className="btn btn-ghost">{item.navTitle}</button>)
+                        :
+                            (
+                                <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
+                                    <div tabIndex={0} role="button" className="btn btn-ghost m-1">{item.navTitle}</div>
+                                    <ul tabIndex={0} className="menu menu-horizontal dropdown-content bg-base-200 rounded-box lg:min-w-max max-w-xs overflow-auto">
+                                            {item.children.map((childItem, index) => (
+                                                <li key={index}>
+                                                    <h2 className="menu-title">{childItem.subCategoryTitle}</h2>
+                                                    <ul>
+                                                        {childItem.subCategories.map(subItems => (
+                                                            <li key={subItems}>
+                                                                <a>{subItems}</a>
+                                                            </li>
+                                                        ))}
+                                                    </ul>
+                                                </li>
+                                            ))}
+                                    </ul>
+                                </div>
+                            )
+                            }
+                    </Fragment>
+                ))}
             </div>
             <div className="nav__account">
                 <button className="btn btn-ghost">Account  👤</button>
