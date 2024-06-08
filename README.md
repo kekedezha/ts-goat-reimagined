@@ -35,4 +35,5 @@ To run the project in your local environment, follow these steps:
 1. Clone the repository to your local machine
 2. Run `npm install` or the project directory to install the required dependencies.
 3. Run `npm start` or to get the project started.
-4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.(Development mode)
+4. Open a new terminal and run `npx json-server -w data/products.json -p 3500` to get a mock web server to serve static json files in the data directory. You may have to install json-server (`npm i json-server`)
+5. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.(Development mode)
