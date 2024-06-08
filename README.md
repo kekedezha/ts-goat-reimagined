@@ -5,13 +5,21 @@ GOAT 'Reimagined' is a redesign of a search on the streetwear/luxury website for
 
 ## Motivation ✍🏽
 
-[GOAT's](https://www.goat.com/) current website has a UI/UX that is a bit outdated and an unpleasant user experience, in my opinion. I wanted to start out with something simple and redesign part of the website because doing the full website might take a little bit more time and thought. I decided on a search for the Air Jordan 4 Retro. This obviously will not have every single shoe available but is more a less a preview of how the search for the specified silhouette. 
+[GOAT's](https://www.goat.com/) current website has a UI/UX that is a bit outdated and has an unpleasant user experience, in my opinion. I wanted to start out with something simple and redesign part of the website because doing the full website might take a little bit more time and thought. I decided on a search for the Air Jordan 4 Retro. This obviously will not have every single shoe available but is more or less a preview of how the search would look like for the specified silhouette. 
+
+## Features ✨
+
+- Add items to cart for 'purchase'
+- Switch between the products and a cart view that updates as you select items to 'buy'
+- Cart view has a 'place order' button that mimics a purchase 
 
 ## Main Technologies 💻
 
 - React
 - TypeScript
 - Vite
+- DaisyUI
+- TailwindCSS
 
 ## Future Improvements/Integrations 🤔
 
