@@ -2,6 +2,13 @@ const SideBar = () => {
 
     const content = (
         <ul className="menu bg-base-200 w-56 rounded-box">
+            <li><a>Popular</a></li>
+            <li><a>Recently Released Sneakers</a></li>
+            <li><a>New In Apparel</a></li>
+            <li><a>Price (Low - High)</a></li>
+            <li><a>Price (High - Low)</a></li>
+            <br/>
+            <br/>
             <li>
                 <details>
                     <summary>Brand</summary>
