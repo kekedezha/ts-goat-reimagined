@@ -19,7 +19,7 @@ export default {
       // 375 <= screen size < 424
       'mobileSm': '320px',
       // => @media (min-width: 320)
-      // 375 <= screen size < 424
+      // 320 <= screen size < 374
     },
     extend: {},
   },

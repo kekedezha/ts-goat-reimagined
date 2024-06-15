@@ -215,3 +215,25 @@ img {
         max-width: 300px;
     }
 }
+
+@media screen and (max-width: 1386px) {
+    .product h3 {
+        max-width: 330px;
+        text-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .products-search-div {
+        padding-left: 25px;
+    }
+    .product h3 {
+        margin: auto 0;
+        min-height: 48px;
+        text-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    
+}
