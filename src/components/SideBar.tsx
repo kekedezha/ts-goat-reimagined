@@ -5,7 +5,7 @@ import { Fragment } from "react/jsx-runtime";
 const SideBar = () => {
 
     const content = (
-        <ul className="menu bg-base-200 w-56 rounded-box">
+        <ul className="menu tablet:w-40 tablet:menu-sm min-[1080px]:w-56 lg:menu-md bg-base-200 rounded-box">
             {sideBarData.sideBarLinks.map((item, index) => (
                 <Fragment key={index}>
                     <li key={item.sectionTitle}>
