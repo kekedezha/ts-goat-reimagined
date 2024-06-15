@@ -17,6 +17,9 @@ export default {
       'mobileMed': '375px',
       // => @media (min-width: 375)
       // 375 <= screen size < 424
+      'mobileSm': '320px',
+      // => @media (min-width: 320)
+      // 375 <= screen size < 424
     },
     extend: {},
   },
