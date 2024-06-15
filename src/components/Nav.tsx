@@ -21,7 +21,7 @@ const Nav = () => {
                             (
                                 <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
                                     <div tabIndex={0} role="button" className="btn btn-ghost m-1">{item.navTitle}</div>
-                                    <ul tabIndex={0} className="menu menu-horizontal menu-xs dropdown-content bg-base-200 rounded-box lg:min-w-max">
+                                    <ul tabIndex={0} className="dropdown-content menu menu-horizontal menu-xs bg-base-100 rounded-box lg:min-w-max">
                                             {item.children.map((childItem, index) => (
                                                 <li key={index}>
                                                     <h2 className="menu-title">{childItem.subCategoryTitle}</h2>

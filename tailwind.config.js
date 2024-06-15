@@ -8,18 +8,29 @@ export default {
   ],
   theme: {
     screens: {
-      'tablet': '768px',
-      // => @media (min-width: 768px)
-      // 768 <= screen size < 1023 
-      'mobileLarge': '425px',
-      // => @media (min-width: 425) 
-      // 425 <= screen size < 767
-      'mobileMed': '375px',
-      // => @media (min-width: 375)
-      // 375 <= screen size < 424
       'mobileSm': '320px',
       // => @media (min-width: 320)
-      // 320 <= screen size < 374
+
+      'mobileMed': '375px',
+      // => @media (min-width: 375)
+      
+      'mobileLarge': '425px',
+      // => @media (min-width: 425) 
+
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'tablet': '768px',
+      // => @media (min-width: 768px)
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
     },
     extend: {},
   },

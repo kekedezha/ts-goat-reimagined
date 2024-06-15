@@ -27,7 +27,7 @@ const Product = ({ product, dispatch, REDUCER_ACTIONS, inCart }: PropsType): Rea
                 <button className="btn btn-primary w-1/4" onClick={onAddToCart}>Add To Cart</button>
                 <div className="dropdown dropdown-top">
                     <div tabIndex={0} role="button" className="btn btn-primary mx-1">Sizes</div>
-                    <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-neutral text-slate-50 rounded-box w-52">
                         <li className="disabled"><a>7</a></li>
                         <li className="disabled"><a>7.5</a></li>
                         <li className="disabled"><a>8</a></li>
