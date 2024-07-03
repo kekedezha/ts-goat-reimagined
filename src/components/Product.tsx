@@ -23,7 +23,7 @@ const Product = ({ product, dispatch, REDUCER_ACTIONS, inCart }: PropsType): Rea
             <h3>{product.name}</h3>
             <img src={img} alt={product.name} className="product__img" />
             <p className="mb-4">{new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'}).format(product.price)}{itemInCart}</p>
-            <div className="flex flex-1 justify-evenly">
+            <div className="flex justify-evenly mx-auto w-4/5">
                 <button className="btn btn-primary w-2/4" onClick={onAddToCart}>Add To Cart</button>
                 <div className="dropdown dropdown-top w-1/3">
                     <div tabIndex={0} role="button" className="btn btn-primary">Sizes</div>

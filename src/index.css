@@ -151,7 +151,7 @@ img {
     display: flex;
     max-height: 300px;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     text-align: center;
     margin: 0 0 1rem 0;
 }
